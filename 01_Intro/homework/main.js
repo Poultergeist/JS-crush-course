@@ -19,4 +19,4 @@ alert(`Euro: ${usd * 0.933}`);
 // ------5-------
 const spaceGB = +prompt("Enter capacity in GB:");
 let spaceMB = spaceGB * 1024;
-alert(`You can save ${(spaceMB - (spaceMB % 820))/820} files with size 820MB on flash drive and will be ${spaceMB % 820} free space`);
+alert(`You can save ${(spaceMB - (spaceMB % 820))/820} files with size 820MB on flash drive and will be ${spaceMB % 820}MB free space`);
