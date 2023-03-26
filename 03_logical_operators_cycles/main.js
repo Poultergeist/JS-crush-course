@@ -1,5 +1,11 @@
 // login operators: > < == != >= <=
-// conditions combinators: && ||
+// conditions combinators: && (logic and) || (logic or)
+
+// === / !== - strict equality
+// == / !=   - loose equality
+
+console.log("1" == 1);
+console.log("1" === 1);
 
 console.log(5 > 7); // false
 console.log("Vlad" != "Nazar"); // true
@@ -24,6 +30,13 @@ else
 
 console.log("Bob" < "Julia" ? "First at the top" : "Second at the top");
 console.log(`Number is ${number < 0 ? 'incorrect' : 'correct'}`);
+
+if (number >= 10 && number <= 20) {
+    console.log("Your number in range [10..20]");
+}
+else {
+    console.log("Your number is out of range [10..20]");
+}
 
 // ----------------- switch -------------
 const weekday = +prompt("Enter current weekday number: ");
