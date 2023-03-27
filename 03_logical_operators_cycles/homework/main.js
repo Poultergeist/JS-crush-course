@@ -117,6 +117,6 @@ alert(`Count of positive: ${pos}, negative: ${neg}, zeros: ${zero}.\nAlso count 
 
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let i_ = 0;
-while (confirm(`3.${weekdays[index]}. Do you want to see the next day?`)) {
+while (confirm(`3.${weekdays[i_]}. Do you want to see the next day?`)) {
     i_ = (i_ + 1) % 7;
 }
