@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: 8px auto;
+}
+
+.text {
+    color: #1322a3;
+    background-color: #a1a1a1;
+    border: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    border-collapse: collapse;
+}
